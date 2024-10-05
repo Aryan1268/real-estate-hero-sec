@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.responsive-page{
+    display: flex;
+    /* width: 70%; */
+}
+
+.responsive-img-sec{
+
+}
+
+.responsive-img{
+    width: 100%;
+    height: 98vh;
+}
+
+.form{
+    background-color: #FFC94A;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-items: center; */
+    
+}
+
+.form-box{
+    /* display: flex;
+    flex-direction: column; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.box-sec{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    width: 80%;
+    padding: 7px;
+    border-radius: 30px;
+
+}
+
+.box{
+    /* border: 2px solid black; */
+    height: 40px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.box .font{
+    font-size: 2rem;
+    /* display: flex; */
+   justify-content: space-between;
+   flex-direction: column;
+}
+
+.font{
+    font-size: 1.2rem;
+    /* display: flex; */
+}
+
+.bio{
+    /* width: 500px; */
+    margin-left: 10px;
+
+}
+
+@media only screen and (max-width:480px){
+    
+    .responsive-page{
+        display: flex;
+        /* width: 70%; */
+        flex-direction: column;
+    }
+    
+    .responsive-img-sec{
+    
+    }
+    
+    .responsive-img{
+        width: 100%;
+        height: 98vh;
+    }
+    
+    .form{
+        background-color: #FFC94A;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* align-items: center; */
+        
+    }
+    
+    .form-box{
+        /* display: flex;
+        flex-direction: column; */
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .box-sec{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid black;
+        width: 80%;
+        padding: 7px;
+        border-radius: 30px;
+    
+    }
+    
+    .box{
+        /* border: 2px solid black; */
+        height: 40px;
+        display: flex;
+        align-items: center;
+       
+    }
+    
+    .box .font{
+        font-size: 2rem;
+        /* display: flex; */
+       justify-content: space-between;
+       flex-direction: column;
+    }
+    
+    .font{
+        font-size: 1.2rem;
+        /* display: flex; */
+    }
+    
+    .bio{
+        /* width: 500px; */
+        margin-left: 10px;
+    
+    }
+}
+
+@media only screen and (max-width:1000px){
+    
+    .responsive-page{
+        display: flex;
+        /* width: 70%; */
+        flex-direction: column;
+    }
+    
+    .responsive-img-sec{
+    
+    }
+    
+    .responsive-img{
+        width: 100%;
+        height: 98vh;
+    }
+    
+    .form{
+        background-color: #FFC94A;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* align-items: center; */
+        
+    }
+    
+    .form-box{
+        /* display: flex;
+        flex-direction: column; */
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .box-sec{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid black;
+        width: 80%;
+        padding: 7px;
+        border-radius: 30px;
+    
+    }
+    
+    .box{
+        /* border: 2px solid black; */
+        height: 40px;
+        display: flex;
+        align-items: center;
+       
+    }
+    
+    .box .font{
+        font-size: 2rem;
+        /* display: flex; */
+       justify-content: space-between;
+       flex-direction: column;
+    }
+    
+    .font{
+        font-size: 1.2rem;
+        /* display: flex; */
+    }
+    
+    .bio{
+        /* width: 500px; */
+        margin-left: 10px;
+    
+    }
+}
+
